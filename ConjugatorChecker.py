@@ -8,6 +8,7 @@ Tspaces = 0
 TnonSpaceChars = 0
 numStudents = 0
 
+# Key Conjugator function to check student outputs against.
 def conjugate2(pro, verb):
     pro = pro.lower()
     verb = verb.lower()
@@ -37,10 +38,12 @@ def conjugate2(pro, verb):
 
 
 def checkList(functionName):
+    # Sample pronouns. Funky capitalizations are added on to the end to ensure students are properly handling
+    # case-sensitivity.
     pronouns = ["usTEdes", "ellA", "nosoTros",  "tu", "yO", ]
     print(Path.cwd())
-    file = open("../../../Conjugator/regVerbs", "r")
-    verblist = file.read().splitlines()
+    file = open("../../../Conjugator/regVerbs", "r")        # Opens file of test verbs.
+    verblist = file.read().splitlines()                     # Gets list of test verbs.
     file.close()
 
     numCorrect = 0
