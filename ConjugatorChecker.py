@@ -99,7 +99,7 @@ print(Path.cwd())
 class_periods = []
 
 for file in os.listdir():
-    if os.path.isdir(file) and file not in [".idea", ".gitignore"]:
+    if os.path.isdir(file) and file not in [".idea", ".gitignore", ".git"]:
         class_periods.append(file)
 
 print("Which folder would you like to open below?")
@@ -107,6 +107,8 @@ for i in range(len(class_periods)):
     print(str(i) + " - " +class_periods[i])
 
 folderChoice = int(input())
+print("\n\n")
+
 classroomFolder = class_periods[folderChoice]
 os.chdir(Path(Path.cwd(), classroomFolder))
 print(Path.cwd())
