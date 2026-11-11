@@ -11,7 +11,7 @@
 
 ## What I learned:
 
-- Automated the retrieval and execution of student Python submissions across a directory tree. This eliminated **_the need to manually locate, open, run, and grade the code and output of 81 individual programs. _** Students could be graded with more precision in less time (from 30 minutes to 3 minutes per student)
+- Automated the retrieval and execution of student Python submissions across a directory tree. This drastically **reduces the burden involved in the grading process** by eliminating the need to manually locate, open, and run the code of 81 individual programs. Students could be graded with more precision in less time (from 30 minutes to 4 minutes per student)
 - Implements batch testing using approximately 200 predefined input cases per submission to evaluate Spanish verb conjugation across regular -ar, -er, and -ir verbs.
 - Streamlined the assessment workflow by consolidating repetitive file management, program execution, and correctness checks into a single automated process.
 - Improved the consistency and precision of assessments through automated testing.
@@ -19,8 +19,8 @@
 
 ## Files
 
-- **Period 4-8, Early** - Sample python solutions.
-- **ConjugatorChecker.py** - Checks the submissions of each specified class.
+- **Period 4-8, Early** - Sample python solutions organized into different class folders.
+- **ConjugatorChecker.py** - Checks the submissions of each submission in a specified class.
 - **Ifs and Slices: Spanish Verb Conjugator.docx** - Lab Instructions and Rubric
 - **RegVerbs** - A list of regular spanish verbs to check against the students submissions.
 - **RegVerbsShort** - A short list of 3 spanish verbs.
@@ -33,14 +33,22 @@
 
 ### How to use _ConjugatorChecker.py_
 
-1. After running the program, select a class from the menu.  
+1. After running the program, select a class from the menu.  <br>
    ![Screenshot of my project](screenshots/class_select.jpg)
 
-2. The program will then go through each students files, checking the output of their functions against a key with **_RegVerbs_**. Press enter to make your way through each student. The results of each check are displayed as a percentage in the output before continuing to the next student.  
-   ![Screenshot of my project](screenshots/test_student.jpg)
+   <img src="screenshots/test_student.jpg" width="350" align="right">
+2. The program will then go through each students files, checking the output of their functions against a key with **_RegVerbs_**. Press enter to make your way through each student.  The results of each check are displayed as a percentage in the output before continuing to the next student.  
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-3. **File Stats** are also displayed to show the number of lines, words, spaces, characters, and non-space characters appear in the file. There is an option to read through the submission at the end of each check for a closer look at each submission.  
-   ![Screenshot of student checks](screenshots/student_results.jpg)
+   <img src="screenshots/student_results.jpg" width="200" align="right">
+3. **File Stats** are also displayed to show the number of lines, words, spaces, characters, and non-space  characters appear in the file.  There is an option to read through the submission at the end of each check for a closer look at each submission.  
+<br><br><br><br><br><br><br><br>
 
-4. When complete with a class, the **classes average stats** are also displayed.  
-   ![Screenshot of student checks](screenshots/class_results.jpg)
+   <img src="screenshots/class_results.jpg" width="200" align="right">
+4. When complete with a class, the **classes average stats** are also displayed.
+<br><br><br><br><br><br><br>
+
+
+
+## Later Improvements:
+- I eventually add a way to choose where in a class you would like to start to be able to stop grading and come back later with ease. This also helps account for the challenge that sometimes an error can occur and terminate the grading process.
