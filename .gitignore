@@ -1,2 +1,9 @@
 .idea/
 rename_directory.sh rename_directory_py_files.sh
+__pycache__/
+*.pyc
+*.sh
+.venv/
+venv/
+.env
+.vscode/

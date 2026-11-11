@@ -33,9 +33,14 @@ Students will write a program that takes in a pronoun and an infinitive verb as 
 
 ### How to use _ConjugatorChecker.py_
 
-- After running the program, select a class from the menu.
-- The program will then go through each students files, checking the output of their functions against a key with **_RegVerbs_**. Press enter to make your way through each student.
-- The results of each check are displayed as a percentage in the output before continuing to the next student.
-- **File Stats** are also displayed to show the number of lines, words, spaces, characters, and non-space characters appear in the file.
-- There is an option to read through the submission at the end of each check for a closer look at each submission.
-- When complete with a class, the **classes average stats** are also displayed.
+1. After running the program, select a class from the menu.  
+   ![Screenshot of my project](screenshots/class_select.jpg)
+
+2. The program will then go through each students files, checking the output of their functions against a key with **_RegVerbs_**. Press enter to make your way through each student. The results of each check are displayed as a percentage in the output before continuing to the next student.  
+   ![Screenshot of my project](screenshots/test_student.jpg)
+
+3. **File Stats** are also displayed to show the number of lines, words, spaces, characters, and non-space characters appear in the file. There is an option to read through the submission at the end of each check for a closer look at each submission.  
+   ![Screenshot of student checks](screenshots/student_results.jpg)
+
+4. When complete with a class, the **classes average stats** are also displayed.  
+   ![Screenshot of student checks](screenshots/class_results.jpg)
