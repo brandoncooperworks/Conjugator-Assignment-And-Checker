@@ -51,4 +51,4 @@
 
 
 ## Later Improvements:
-- I eventually add a way to choose where in a class you would like to start to be able to stop grading and come back later with ease. This also helps account for the challenge that sometimes an error can occur and terminate the grading process.
+- In later versions, I add a way to choose where in a class you would like to start to be able to stop grading and come back later with ease. This also helps account for the challenge that sometimes an error can occur and terminate the grading process.
