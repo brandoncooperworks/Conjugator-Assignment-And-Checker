@@ -1,8 +1,8 @@
 # Verb Conjugator Project with Assignment Checker
 
-Automates the grading of student-submitted project files for AP Computer Science Principles (for 81 total students across 5 class periods).
-Students implement functions and string slicing in Python to correctly conjugate regular verbs in Spanish.
-Students will write a program that takes in a pronoun and an infinitive verb as inputs to the function. The function should return a new pronoun-verb pair with the **_conjugated verb._**
+- Automates the grading of student-submitted project files for AP Computer Science Principles (for 81 total students across 5 class periods).
+- Students implement functions and string slicing in Python to correctly conjugate regular verbs in Spanish.
+- Students will write a program that takes in a pronoun and an infinitive verb as inputs to the function. The function should return a new pronoun-verb pair with the **_conjugated verb._**
 
 ## What students learn:
 
